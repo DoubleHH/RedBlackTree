@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BABBF2E1CA04078003B8DB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BABBF2D1CA04078003B8DB8 /* main.m */; };
+		6BABBF311CA04078003B8DB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BABBF301CA04078003B8DB8 /* AppDelegate.m */; };
+		6BABBF391CA04078003B8DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BABBF381CA04078003B8DB8 /* Assets.xcassets */; };
+		6BABBF561CA04955003B8DB8 /* TKCommonTools+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BABBF441CA04955003B8DB8 /* TKCommonTools+Date.m */; };
+		6BABBF571CA04955003B8DB8 /* TKCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BABBF461CA04955003B8DB8 /* TKCommonTools.m */; };
+		6BABBF581CA04955003B8DB8 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BABBF481CA04955003B8DB8 /* UIView+Utils.m */; };
+		6BABBF591CA04955003B8DB8 /* HHRedBlackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BABBF4B1CA04955003B8DB8 /* HHRedBlackNode.m */; };
+		6BABBF5A1CA04955003B8DB8 /* HHRedBlackTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BABBF4D1CA04955003B8DB8 /* HHRedBlackTree.m */; };
+		6BABBF5B1CA04955003B8DB8 /* HHRedBlackNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BABBF501CA04955003B8DB8 /* HHRedBlackNodeView.m */; };
+		6BABBF5C1CA04955003B8DB8 /* HHRedBlackTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BABBF521CA04955003B8DB8 /* HHRedBlackTreeView.m */; };
+		6BABBF5D1CA04955003B8DB8 /* HHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BABBF551CA04955003B8DB8 /* HHViewController.m */; };
+		6BABBF641CA04BDE003B8DB8 /* HHImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BABBF631CA04BDE003B8DB8 /* HHImageUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BABBF291CA04078003B8DB8 /* HHRedBlackTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHRedBlackTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BABBF2D1CA04078003B8DB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BABBF2F1CA04078003B8DB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BABBF301CA04078003B8DB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BABBF381CA04078003B8DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BABBF3D1CA04078003B8DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BABBF441CA04955003B8DB8 /* TKCommonTools+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TKCommonTools+Date.m"; sourceTree = "<group>"; };
+		6BABBF451CA04955003B8DB8 /* TKCommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCommonTools.h; sourceTree = "<group>"; };
+		6BABBF461CA04955003B8DB8 /* TKCommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCommonTools.m; sourceTree = "<group>"; };
+		6BABBF471CA04955003B8DB8 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		6BABBF481CA04955003B8DB8 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		6BABBF4A1CA04955003B8DB8 /* HHRedBlackNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRedBlackNode.h; sourceTree = "<group>"; };
+		6BABBF4B1CA04955003B8DB8 /* HHRedBlackNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRedBlackNode.m; sourceTree = "<group>"; };
+		6BABBF4C1CA04955003B8DB8 /* HHRedBlackTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRedBlackTree.h; sourceTree = "<group>"; };
+		6BABBF4D1CA04955003B8DB8 /* HHRedBlackTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRedBlackTree.m; sourceTree = "<group>"; };
+		6BABBF4F1CA04955003B8DB8 /* HHRedBlackNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRedBlackNodeView.h; sourceTree = "<group>"; };
+		6BABBF501CA04955003B8DB8 /* HHRedBlackNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRedBlackNodeView.m; sourceTree = "<group>"; };
+		6BABBF511CA04955003B8DB8 /* HHRedBlackTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRedBlackTreeView.h; sourceTree = "<group>"; };
+		6BABBF521CA04955003B8DB8 /* HHRedBlackTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRedBlackTreeView.m; sourceTree = "<group>"; };
+		6BABBF541CA04955003B8DB8 /* HHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHViewController.h; sourceTree = "<group>"; };
+		6BABBF551CA04955003B8DB8 /* HHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHViewController.m; sourceTree = "<group>"; };
+		6BABBF621CA04BDE003B8DB8 /* HHImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHImageUtil.h; sourceTree = "<group>"; };
+		6BABBF631CA04BDE003B8DB8 /* HHImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHImageUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BABBF261CA04078003B8DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BABBF201CA04078003B8DB8 = {
+			isa = PBXGroup;
+			children = (
+				6BABBF2B1CA04078003B8DB8 /* HHRedBlackTree */,
+				6BABBF2A1CA04078003B8DB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BABBF2A1CA04078003B8DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BABBF291CA04078003B8DB8 /* HHRedBlackTree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BABBF2B1CA04078003B8DB8 /* HHRedBlackTree */ = {
+			isa = PBXGroup;
+			children = (
+				6BABBF431CA04955003B8DB8 /* Common */,
+				6BABBF491CA04955003B8DB8 /* RedBlackLogic */,
+				6BABBF4E1CA04955003B8DB8 /* RedBlackView */,
+				6BABBF531CA04955003B8DB8 /* ViewController */,
+				6BABBF2F1CA04078003B8DB8 /* AppDelegate.h */,
+				6BABBF301CA04078003B8DB8 /* AppDelegate.m */,
+				6BABBF381CA04078003B8DB8 /* Assets.xcassets */,
+				6BABBF3D1CA04078003B8DB8 /* Info.plist */,
+				6BABBF2C1CA04078003B8DB8 /* Supporting Files */,
+			);
+			path = HHRedBlackTree;
+			sourceTree = "<group>";
+		};
+		6BABBF2C1CA04078003B8DB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BABBF2D1CA04078003B8DB8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BABBF431CA04955003B8DB8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6BABBF441CA04955003B8DB8 /* TKCommonTools+Date.m */,
+				6BABBF451CA04955003B8DB8 /* TKCommonTools.h */,
+				6BABBF461CA04955003B8DB8 /* TKCommonTools.m */,
+				6BABBF471CA04955003B8DB8 /* UIView+Utils.h */,
+				6BABBF481CA04955003B8DB8 /* UIView+Utils.m */,
+				6BABBF621CA04BDE003B8DB8 /* HHImageUtil.h */,
+				6BABBF631CA04BDE003B8DB8 /* HHImageUtil.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6BABBF491CA04955003B8DB8 /* RedBlackLogic */ = {
+			isa = PBXGroup;
+			children = (
+				6BABBF4A1CA04955003B8DB8 /* HHRedBlackNode.h */,
+				6BABBF4B1CA04955003B8DB8 /* HHRedBlackNode.m */,
+				6BABBF4C1CA04955003B8DB8 /* HHRedBlackTree.h */,
+				6BABBF4D1CA04955003B8DB8 /* HHRedBlackTree.m */,
+			);
+			path = RedBlackLogic;
+			sourceTree = "<group>";
+		};
+		6BABBF4E1CA04955003B8DB8 /* RedBlackView */ = {
+			isa = PBXGroup;
+			children = (
+				6BABBF4F1CA04955003B8DB8 /* HHRedBlackNodeView.h */,
+				6BABBF501CA04955003B8DB8 /* HHRedBlackNodeView.m */,
+				6BABBF511CA04955003B8DB8 /* HHRedBlackTreeView.h */,
+				6BABBF521CA04955003B8DB8 /* HHRedBlackTreeView.m */,
+			);
+			path = RedBlackView;
+			sourceTree = "<group>";
+		};
+		6BABBF531CA04955003B8DB8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6BABBF541CA04955003B8DB8 /* HHViewController.h */,
+				6BABBF551CA04955003B8DB8 /* HHViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BABBF281CA04078003B8DB8 /* HHRedBlackTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BABBF401CA04078003B8DB8 /* Build configuration list for PBXNativeTarget "HHRedBlackTree" */;
+			buildPhases = (
+				6BABBF251CA04078003B8DB8 /* Sources */,
+				6BABBF261CA04078003B8DB8 /* Frameworks */,
+				6BABBF271CA04078003B8DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHRedBlackTree;
+			productName = HHRedBlackTree;
+			productReference = 6BABBF291CA04078003B8DB8 /* HHRedBlackTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BABBF211CA04078003B8DB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DoubleH;
+				TargetAttributes = {
+					6BABBF281CA04078003B8DB8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6BABBF241CA04078003B8DB8 /* Build configuration list for PBXProject "HHRedBlackTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BABBF201CA04078003B8DB8;
+			productRefGroup = 6BABBF2A1CA04078003B8DB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BABBF281CA04078003B8DB8 /* HHRedBlackTree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BABBF271CA04078003B8DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BABBF391CA04078003B8DB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BABBF251CA04078003B8DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BABBF5D1CA04955003B8DB8 /* HHViewController.m in Sources */,
+				6BABBF5B1CA04955003B8DB8 /* HHRedBlackNodeView.m in Sources */,
+				6BABBF561CA04955003B8DB8 /* TKCommonTools+Date.m in Sources */,
+				6BABBF5C1CA04955003B8DB8 /* HHRedBlackTreeView.m in Sources */,
+				6BABBF5A1CA04955003B8DB8 /* HHRedBlackTree.m in Sources */,
+				6BABBF311CA04078003B8DB8 /* AppDelegate.m in Sources */,
+				6BABBF2E1CA04078003B8DB8 /* main.m in Sources */,
+				6BABBF591CA04955003B8DB8 /* HHRedBlackNode.m in Sources */,
+				6BABBF641CA04BDE003B8DB8 /* HHImageUtil.m in Sources */,
+				6BABBF581CA04955003B8DB8 /* UIView+Utils.m in Sources */,
+				6BABBF571CA04955003B8DB8 /* TKCommonTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6BABBF3E1CA04078003B8DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BABBF3F1CA04078003B8DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BABBF411CA04078003B8DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HHRedBlackTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doublehh.HHRedBlackTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BABBF421CA04078003B8DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HHRedBlackTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doublehh.HHRedBlackTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BABBF241CA04078003B8DB8 /* Build configuration list for PBXProject "HHRedBlackTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BABBF3E1CA04078003B8DB8 /* Debug */,
+				6BABBF3F1CA04078003B8DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BABBF401CA04078003B8DB8 /* Build configuration list for PBXNativeTarget "HHRedBlackTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BABBF411CA04078003B8DB8 /* Debug */,
+				6BABBF421CA04078003B8DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BABBF211CA04078003B8DB8 /* Project object */;
+}
